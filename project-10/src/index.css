@@ -1,0 +1,60 @@
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 400px;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.logo-component {
+  display: flex;
+  align-items: center;
+}
+
+.logo-component h1 {
+  margin-left: 10px;
+}
+
+.board-list {
+  margin-top: 20px;
+}
+
+.board-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  z-index: 1000;
+}
+
+.modal h2 {
+  margin-top: 0;
+}
+
+.modal input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.modal button {
+  margin-right: 10px;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

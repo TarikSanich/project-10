@@ -1,0 +1,13 @@
+src/
+├── components/
+│   ├── LogoComponent.js
+│   ├── CreateNewBoardButton.js
+│   ├── BoardList.js
+│   ├── HelpModal.js
+│   ├── LogoutButton.js
+│   ├── CreateBoardModal.js
+│   ├── BoardItem.js
+│   └── Sidebar.js
+├── App.js
+├── index.js
+└── api.js
