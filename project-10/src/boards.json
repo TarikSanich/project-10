@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "title": "Board 1",
+      "icon": "icon1",
+      "background": "background1"
+    },
+    {
+      "id": 2,
+      "title": "Board 2",
+      "icon": "icon2",
+      "background": "background2"
+    }
+  ]
+  

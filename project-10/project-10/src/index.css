@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+  font-family: 'Poppins';
+  line-height: 1.5;
+  font-weight: 400;
+
+  --label--task-color: #FFFFFF4D;
+  --label-low-task-color: #8FA1D0;
+  --label-medium-task-color: #E09CB5;
+  --label-high-task-color: #BEDBB0;
+
+
+      /* кольори для сторінок WelcomePage та AuthPage*/
+      --background: linear-gradient(180deg, rgba(196, 196, 196, 0) 25%, #BEDBB0 92.19%);
+      --text-color-start: #161616;
+      --text-color-star-white: #FFFFFF;
+      --btn-color: #BEDBB0;
+}
+
+
+
+
+/* Dark Theme */
+[data-theme='dark'] {
+  --background: #232323;
+  --text-color: #FFFFFF;
+  --color-no-active-element: #BEDBB0;
+  --color-hover-element: #9DC888;
+  --text-input-color-active: #FFFFFF;
+  --color-icons-no-active: #FFFFFF80;
+  --color-icons-active: #FFFFFF;
+
+  --color-plus-no-active: #BEDBB0;
+  --color-plus-active: #9DC888;
+
+  --color-logout: #BEDBB0;
+  --color-logout-hover: #9DC888;
+}
+
+/* Light Theme*/
+[data-theme='light'] {
+  --background: #FDFDFD;
+  --text-color: #161616;
+  --color-no-active-element: #BEDBB0;
+  --color-hover-element: #9DC888;
+  --text-input-color-active: #161616;
+  --color-icons-no-active: #16161680;
+  --color-icons-active: #161616;
+
+  --color-plus-no-active: #BEDBB0;
+  --color-plus-active: #9DC888;
+
+  --color-logout: #BEDBB0;
+  --color-logout-hover:#9DC888;
+}
+
+/* Violet Theme*/
+[data-theme='violet'] {
+  --background: #D6D8FF;
+  --text-color: #FFFFFF;
+  --color-no-active-element:#5255BC;
+  --color-hover-element: #7B7EDE;
+  --text-input-color-active: #161616;
+  --color-icons-no-active: #16161680;
+  --color-icons-active: #161616;
+
+  --color-plus-no-active:#B8BCFD;
+  --color-plus-active: #979CEA;
+
+  --color-logout: #FFFFFF;
+  --color-logout-hover: #B8BCFD;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+
+a {
+  color: currentColor;
+  text-decoration: none;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+body {
+  background: var(--background);
+}
